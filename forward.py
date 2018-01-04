@@ -89,7 +89,7 @@ def forward(A,B_initial,PI,O):
 
 
 	# Logsum the last column:
-	# I still don't understand why we need to logsum all of the things
+
 	count = 0
 	for i in Alpha[:,-1]:
 		if count ==0:
