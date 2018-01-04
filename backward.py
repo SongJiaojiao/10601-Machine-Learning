@@ -84,7 +84,6 @@ def backward(A,B_initial,PI,O):
 			
 			Beta[n,t] = roni
 	# Logsum the first column:
-	# I still don't understand why we need to logsum all of the things
 	count = 0
 
 	for i,j,k in zip(Beta[:,0],B[:,0],PI[:,0]):
